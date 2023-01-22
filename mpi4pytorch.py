@@ -1,5 +1,7 @@
 import numpy as np
 import torch
+from mpi4py import MPI
+
 
 def setup_MPI():
     try:
